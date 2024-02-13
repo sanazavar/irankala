@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/app.css">
+    <link rel="stylesheet" href="Styles/grid.css">
+    <title>IranKala</title>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <nav class="nav__wrapper__top">
+            <div class="nav__left">
+                <a href="#" class="nav__link">فروشگاه</a>
+                <a href="#" class="nav__link"> مقایسه محصولات</a>
+                <a href="#" class="nav__link">حساب کاربری</a>
+                <a href="#" class="nav__link">حساب کاربری</a>
+                <a href="#" class="nav__link">پرداخت</a>
+                <a href="#" class="nav__link">سبد خرید</a>
+            </div>
+            <div class="nav__right">
+                <xml version="1.0" ?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48px"
+                        height="48px">
+                        <path
+                            d="M17.525,9H14V7c0-1.032,0.084-1.682,1.563-1.682h1.868v-3.18C16.522,2.044,15.608,1.998,14.693,2 C11.98,2,10,3.657,10,6.699V9H7v4l3-0.001V22h4v-9.003l3.066-0.001L17.525,9z" />
+                    </svg>
+                    <?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48px"
+                        height="48px">
+                        <path
+                            d="M22,3.999c-0.78,0.463-2.345,1.094-3.265,1.276c-0.027,0.007-0.049,0.016-0.075,0.023c-0.813-0.802-1.927-1.299-3.16-1.299 c-2.485,0-4.5,2.015-4.5,4.5c0,0.131-0.011,0.372,0,0.5c-3.353,0-5.905-1.756-7.735-4c-0.199,0.5-0.286,1.29-0.286,2.032 c0,1.401,1.095,2.777,2.8,3.63c-0.314,0.081-0.66,0.139-1.02,0.139c-0.581,0-1.196-0.153-1.759-0.617c0,0.017,0,0.033,0,0.051 c0,1.958,2.078,3.291,3.926,3.662c-0.375,0.221-1.131,0.243-1.5,0.243c-0.26,0-1.18-0.119-1.426-0.165 c0.514,1.605,2.368,2.507,4.135,2.539c-1.382,1.084-2.341,1.486-5.171,1.486H2C3.788,19.145,6.065,20,8.347,20 C15.777,20,20,14.337,20,8.999c0-0.086-0.002-0.266-0.005-0.447C19.995,8.534,20,8.517,20,8.499c0-0.027-0.008-0.053-0.008-0.08 c-0.003-0.136-0.006-0.263-0.009-0.329c0.79-0.57,1.475-1.281,2.017-2.091c-0.725,0.322-1.503,0.538-2.32,0.636 C20.514,6.135,21.699,4.943,22,3.999z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48px" height="48px">
+                        <path
+                            d="M 23.857422 8.5 C 17.504717 8.5 11.602344 8.9526234 8.234375 9.65625 A 1.50015 1.50015 0 0 0 8.2128906 9.6621094 C 5.6754768 10.230693 3.2861897 12.048234 2.7832031 14.894531 A 1.50015 1.50015 0 0 0 2.78125 14.90625 C 2.394836 17.200265 2 20.190694 2 24.5 C 2 28.801151 2.3961903 31.712324 2.8847656 34.126953 C 3.4000756 36.889296 5.7342165 38.761817 8.3105469 39.337891 A 1.50015 1.50015 0 0 0 8.3476562 39.347656 C 11.86271 40.040284 17.598467 40.5 23.951172 40.5 C 30.303877 40.5 36.042686 40.04028 39.558594 39.347656 A 1.50015 1.50015 0 0 0 39.595703 39.337891 C 42.133117 38.769306 44.522404 36.951766 45.025391 34.105469 A 1.50015 1.50015 0 0 0 45.029297 34.083984 C 45.409789 31.743169 45.902812 28.755621 46 24.439453 A 1.50015 1.50015 0 0 0 46 24.40625 C 46 20.087697 45.50571 17.078675 45.023438 14.695312 C 44.512192 11.927074 42.175378 10.049478 39.595703 9.4726562 A 1.50015 1.50015 0 0 0 39.476562 9.4511719 C 36.0464 8.9689502 30.211115 8.5 23.857422 8.5 z M 20.15625 17.001953 C 20.526656 16.994297 20.909531 17.081906 21.269531 17.285156 L 29.873047 22.146484 C 31.324047 22.966484 31.324047 25.035469 29.873047 25.855469 L 21.269531 30.716797 C 19.830531 31.528797 18.037109 30.500328 18.037109 28.861328 L 18.037109 19.138672 C 18.037109 17.909422 19.045031 17.024922 20.15625 17.001953 z" />
+                    </svg>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48px" height="48px">
+                        <path
+                            d="M 16.5 5 C 10.16639 5 5 10.16639 5 16.5 L 5 31.5 C 5 37.832757 10.166209 43 16.5 43 L 31.5 43 C 37.832938 43 43 37.832938 43 31.5 L 43 16.5 C 43 10.166209 37.832757 5 31.5 5 L 16.5 5 z M 16.5 8 L 31.5 8 C 36.211243 8 40 11.787791 40 16.5 L 40 31.5 C 40 36.211062 36.211062 40 31.5 40 L 16.5 40 C 11.787791 40 8 36.211243 8 31.5 L 8 16.5 C 8 11.78761 11.78761 8 16.5 8 z M 34 12 C 32.895 12 32 12.895 32 14 C 32 15.105 32.895 16 34 16 C 35.105 16 36 15.105 36 14 C 36 12.895 35.105 12 34 12 z M 24 14 C 18.495178 14 14 18.495178 14 24 C 14 29.504822 18.495178 34 24 34 C 29.504822 34 34 29.504822 34 24 C 34 18.495178 29.504822 14 24 14 z M 24 17 C 27.883178 17 31 20.116822 31 24 C 31 27.883178 27.883178 31 24 31 C 20.116822 31 17 27.883178 17 24 C 17 20.116822 20.116822 17 24 17 z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48px" height="48px">
+                        <path
+                            d="M 24 4 C 12.972066 4 4 12.972074 4 24 C 4 35.027926 12.972066 44 24 44 C 35.027934 44 44 35.027926 44 24 C 44 12.972074 35.027934 4 24 4 z M 24 7 C 33.406615 7 41 14.593391 41 24 C 41 33.406609 33.406615 41 24 41 C 22.566518 41 21.182325 40.804883 19.853516 40.472656 C 20.333373 39.496504 20.656022 38.535017 20.929688 37.529297 L 21.960938 33.460938 C 23.040937 34.480938 24.56 35 26.5 35 C 31.74 35 36 29.73 36 23.25 C 36 16.84 30.84 12 24 12 C 17.38 12 12 17.05 12 23.25 C 12 26.23 13.149922 28.940859 15.169922 30.880859 C 15.409922 31.110859 15.820391 30.980156 15.900391 30.660156 L 16.460938 28.330078 C 16.520937 28.090078 16.460313 27.840859 16.320312 27.630859 C 15.600312 26.610859 15 25.19 15 23.25 C 15 18.7 19.04 15 24 15 C 24.82 15 32 15.24 32 23.5 C 32 27.59 30.12 32 26 32 C 24.96 31.93 24.219062 31.589062 23.789062 31.039062 C 23.049063 30.059062 23.229219 28.399297 23.449219 27.529297 L 24.220703 24.509766 C 24.420703 23.709766 24.5 23.029219 24.5 22.449219 C 24.5 20.499219 23.32 19.5 22 19.5 C 20.22 19.5 19 21.389297 19 23.279297 C 19 24.309297 19.16 25.410625 19.5 26.390625 L 17.230469 35.810547 C 17.230469 35.810547 17 36.419922 17 38.419922 C 17 38.621315 17.035148 39.14999 17.050781 39.509766 C 11.123964 36.857341 7 30.926664 7 24 C 7 14.593391 14.593385 7 24 7 z" />
+                    </svg>
+            </div>
+
+        </nav>
+        <nav class="nav__wrapper__mid">
+            <div class="nav__mid__left">
+                <div class="mid__left__entering">
+                    <a href="#" class="mid__left__entering__title">ورود به حساب</a>
+                    <img src="images/icons/icons8-enter-48.png" alt="">
+
+                </div>
+                <div class="mid__left__basket">
+                    <a href="#">
+                        <img src="images/icons/icons8-add-basket-48.png" alt="">
+                    </a>
+
+                </div>
+                <div class="mid__left__fav">
+                    <a href="#">
+                        <img src="images/icons/icons8-favorite-48.png" alt="">
+
+                    </a>
+
+                </div>
+                <div class="mid__left__compare">
+                    <a href="#">
+                        <img src="images/icons/icons8-compare-48.png" alt="">
+
+                    </a>
+
+                </div>
+
+            </div>
+            <div class="nav__mid__center">
+                <div class="nav__mid__search">
+                    <input type="search" name="" id="navSearch" placeholder="جستجو">
+                    <img src="images/icons/icons8-search-48.png" style="width: 35px;" class="nav__search__icon"></img>
+                </div>
+            </div>
+
+            <div class="nav__mid__right">
+                <img src="images/icons/logo-1.png" alt="" class="logo">
+            </div>
+        </nav>
+
+        <nav class="nav__wrapper__btm">
+            <div class="menu__wrapper">
+                <ul class="menu">
+                    <li class="menu__item menu__sub__item"><a class="menu__link" href="#">ابزار سلامت</a>
+                        <ul class="sub__menu">
+                            <li class="sub__menu__item"><a class="sub__menu__link" href="#"></a>عطر</li>
+                            <li class="sub__menu__item"><a class="sub__menu__link" href="#"></a>آرایش چشم</li>
+                            <li class="sub__menu__item"><a class="sub__menu__link" href="#"></a>آرایش لب</li>
+                            <li class="sub__menu__item"><a class="sub__menu__link" href="#"></a>آرایش صورت</li>
+                        </ul>
+                    </li>
+                    <li class="menu__item"><a class="menu__link" href="#">بهداشت و زیبایی ناخن</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">بهداشت و سلامت</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">لئازم شخصی برقی</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">مراقبت پوست</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">مراقبت مو و زیبایی</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#"> فروشگاه </a></li>
+                </ul>
+
+            </div>
+            <div class="suggestion__wrrapper">
+                <h3 class="suggestion__nav">پیشنهادهای امروز</h3>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="banners">
+
+                <div class="banner__right">
+                    <img src="images/icons/blueBanner.jpg" alt="">
+                </div>
+                <div class="banner__left">
+                    <img src="images/icons/leftBanner.jpeg" alt="">
+                </div>
+
+            </div>
+
+            <div class="wrapp">
+                <section class="sideBarSection">
+                    <div class="container">
+                        <div class="row">
+    
+                            <div class="col-2">
+                                <div class="col2__wrapper">
+                                    <div class="sidebar__search__wrapper">
+                                        <div class="sidebar__search">
+                                            <div class="sidebar__search__upWrapper">
+                                                <p class="sidebar__search__title">جستجو</p>
+                                            </div>
+    
+                                            <input type="search" name="" id="sidebar__search__input">
+                                            <svg class="search__icon" xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256"
+                                                width="48px" height="48px" fill-rule="nonzero">
+                                                <g fill="#e62727" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                                    stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                                    stroke-dasharray="" stroke-dashoffset="0" font-family="none"
+                                                    font-weight="none" font-size="none" text-anchor="none"
+                                                    style="mix-blend-mode: normal">
+                                                    <g transform="scale(10.66667,10.66667)">
+                                                        <path d="M22,20l-2,2l-6,-6v-2h2z"></path>
+                                                        <path
+                                                            d="M9,16c-3.9,0 -7,-3.1 -7,-7c0,-3.9 3.1,-7 7,-7c3.9,0 7,3.1 7,7c0,3.9 -3.1,7 -7,7zM9,4c-2.8,0 -5,2.2 -5,5c0,2.8 2.2,5 5,5c2.8,0 5,-2.2 5,-5c0,-2.8 -2.2,-5 -5,-5z">
+                                                        </path>
+                                                        <path transform="translate(-5.90254,14.24719) rotate(-44.992)"
+                                                            d="M13.7,12.5h1v3.5h-1z"></path>
+                                                    </g>
+                                                </g>
+                                            </svg>
+    
+    
+                                        </div>
+                                    </div>
+                                    <div class="sidebar__categories__wrapper">
+                                        <span class="brands__search__title">دسته محصولات</span>
+    
+                                        <ul class="categoreis__menu">
+                                            <li class="categoreis__menu__item"><a class="categoreis__menu__link"
+                                                    href="#">ابزار
+                                                    سلامت</a></li>
+                                            <li class="categoreis__menu__item"><a class="categoreis__menu__link"
+                                                    href="#">عطر و
+                                                    ادکلن</a></li>
+                                            <li class="categoreis__menu__item"><a class="categoreis__menu__link"
+                                                    href="#">لوازم
+                                                    آرایشی</a>
+                                                <ul class="categoreis__sub__menu">
+    
+    
+                                                    <li class="categoreis__sub__menu__item"><a
+                                                            class="categoreis__sub__menu__link" href="#"> آرایش ابرو</a>
+                                                    </li>
+                                                    <li class="categoreis__sub__menu__item"><a
+                                                            class="categoreis__sub__menu__link" href="#">آرایش چشم ت</a>
+                                                    </li>
+                                                    <li class="categoreis__sub__menu__item"><a
+                                                            class="categoreis__sub__menu__link" href="#">آرایش صورت</a></li>
+                                                    <li class="categoreis__sub__menu__item"><a
+                                                            class="categoreis__sub__menu__link" href="#">آرایش لب</a></li>
+                                                    <li class="categoreis__sub__menu__item"><a
+                                                            class="categoreis__sub__menu__link" href="#">ابزار آرایش </a>
+                                                    </li>
+                                                </ul>
+    
+    
+                                            </li>
+                                            <li class="categoreis__menu__item"><a class="categoreis__menu__link"
+                                                    href="#">لوازم
+                                                    بهداشتی</a></li>
+                                            <li class="categoreis__menu__item"><a class="categoreis__menu__link"
+                                                    href="#">لوازم
+                                                    برقی</a></li>
+                                            <li class="categoreis__menu__item"><a class="categoreis__menu__link"
+                                                    href="#">مراقبت
+                                                    مو وزییبایی</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="sidebar__brands__wrapper">
+                                        <div class=" brands__searchBar__wrapper">
+                                            <span class="brands__search__title"> برندها</span>
+                                            <input type="text" id="brands__search__input">
+    
+                                            <svg class="search__icon__brand" xmlns="http://www.w3.org/2000/svg"
+                                                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256"
+                                                width="48px" height="48px" fill-rule="nonzero">
+                                                <g fill="#e62727" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                                    stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                                    stroke-dasharray="" stroke-dashoffset="0" font-family="none"
+                                                    font-weight="none" font-size="none" text-anchor="none"
+                                                    style="mix-blend-mode: normal">
+                                                    <g transform="scale(10.66667,10.66667)">
+                                                        <path d="M22,20l-2,2l-6,-6v-2h2z"></path>
+                                                        <path
+                                                            d="M9,16c-3.9,0 -7,-3.1 -7,-7c0,-3.9 3.1,-7 7,-7c3.9,0 7,3.1 7,7c0,3.9 -3.1,7 -7,7zM9,4c-2.8,0 -5,2.2 -5,5c0,2.8 2.2,5 5,5c2.8,0 5,-2.2 5,-5c0,-2.8 -2.2,-5 -5,-5z">
+                                                        </path>
+                                                        <path transform="translate(-5.90254,14.24719) rotate(-44.992)"
+                                                            d="M13.7,12.5h1v3.5h-1z"></path>
+                                                    </g>
+                                                </g>
+                                            </svg>
+    
+                                        </div>
+                                        <div class="brands__items__wrapper">
+                                            <div class="checkbox__wraper">
+                                                <input type="checkbox" name="brand" id="brand__checkbox">
+                                                <label for="brand"> سریتا</label>
+    
+                                            </div>
+                                            <div class="checkbox__wraper">
+                                                <input type="checkbox" name="brand" id="brand__checkbox">
+                                                <label for="brand">بایو آکوا</label>
+    
+                                            </div>
+                                            <div class="checkbox__wraper">
+                                                <input type="checkbox" name="brand" id="brand__checkbox">
+                                                <label for="brand"> بیول</label>
+    
+                                            </div>
+                                            <div class="checkbox__wraper">
+                                                <input type="checkbox" name="brand" id="brand__checkbox">
+                                                <label for="brand">پریم </label>
+    
+                                            </div>
+                                            <div class="checkbox__wraper">
+                                                <input type="checkbox" name="brand" id="brand__checkbox">
+                                                <label for="brand"> درمالیفت</label>
+    
+                                            </div>
+                                            <div class="checkbox__wraper">
+                                                <input type="checkbox" name="brand" id="brand__checkbox">
+                                                <label for="brand">مارال </label>
+    
+                                            </div>
+    
+                                        </div>
+                                    </div>
+                                </div>
+    
+                            </div>
+                            <div class="col-10 ">
+                                <div class="col10__wrapper">
+                                    <div class="products__wrapper">
+                                        <div class="col-3">
+                                            <div class="product__wrapper">
+                                                <h3 class="suggestion">پیشنهاد شگفت انگیز</h3>
+                                                <img src="images/icons/roj.jpg" class="product__img"></img>
+                                                <p class="product__img__caption">ست براش آرایشی مدل پاستیلی کد 8900</p>
+                                                <div class="product__img__count__wrapper">
+                                                    <div class="count__right__wrapper">
+                                                        <img src="images/icons/icons8-online-store-24.png"
+                                                            class="count__icon"></img>
+    
+                                                        <p class="count__text">موجود در انبار</p>
+    
+                                                    </div>
+                                                    <div class="count__left__wrapper">
+                                                        <p class="product__rate">4</p>
+                                                        <img src="images/icons/icons8-star-16.png" alt=""
+                                                            class="product__rate__icon">
+                                                    </div>
+    
+                                                </div>
+                                                <div class="product__before__wrapperoffer__price">
+                                                    <p class="product__before__off__price">45,000</p>
+                                                    <p class="product__price__percentage">29%</p>
+                                                </div>
+                                                <h3 class="product__after__offer__price">32,000</h3>
+                                                <p class="product__sellerName">سید رضا صالحی</p>
+                                                <div class="product__timer">
+                                                    <p class="hour">15</p>
+                                                    <span>:</span>
+    
+                                                    <p class="min">56</p>
+                                                    <span>:</span>
+    
+                                                    <p class="secnd">35</p>
+                                                    <span>:</span>
+    
+                                                    <p class="milisecnd">22</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="product__wrapper">
+                                                <h3 class="suggestion">پیشنهاد شگفت انگیز</h3>
+                                                <img src="images/icons/roj.jpg" class="product__img"></img>
+                                                <p class="product__img__caption">ست براش آرایشی مدل پاستیلی کد 8900</p>
+                                                <div class="product__img__count__wrapper">
+                                                    <div class="count__right__wrapper">
+                                                        <img src="images/icons/icons8-online-store-24.png"
+                                                            class="count__icon"></img>
+    
+                                                        <p class="count__text">موجود در انبار</p>
+    
+                                                    </div>
+                                                    <div class="count__left__wrapper">
+                                                        <p class="product__rate">4</p>
+                                                        <img src="images/icons/icons8-star-16.png" alt=""
+                                                            class=" product__rate__icon">
+                                                    </div>
+    
+                                                </div>
+                                                <div class="product__before__wrapperoffer__price">
+                                                    <p class="product__before__off__price">45,000</p>
+                                                    <p class="product__price__percentage">29%</p>
+                                                </div>
+                                                <h3 class="product__after__offer__price">32,000</h3>
+                                                <p class="product__sellerName">سید رضا صالحی</p>
+                                                <div class="product__timer">
+                                                    <p class="hour">15</p>
+                                                    <span>:</span>
+    
+                                                    <p class="min">56</p>
+                                                    <span>:</span>
+    
+                                                    <p class="secnd">35</p>
+                                                    <span>:</span>
+    
+                                                    <p class="milisecnd">22</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="product__wrapper">
+                                                <h3 class="suggestion">پیشنهاد شگفت انگیز</h3>
+                                                <img src="images/icons/roj.jpg" class="product__img"></img>
+                                                <p class="product__img__caption">ست براش آرایشی مدل پاستیلی کد 8900</p>
+                                                <div class="product__img__count__wrapper">
+                                                    <div class="count__right__wrapper">
+                                                        <img src="images/icons/icons8-online-store-24.png"
+                                                            class="count__icon"></img>
+    
+                                                        <p class="count__text">موجود در انبار</p>
+    
+                                                    </div>
+                                                    <div class="count__left__wrapper">
+                                                        <p class="product__rate">4</p>
+                                                        <img src="images/icons/icons8-star-16.png" alt=""
+                                                            class="  product__rate__icon">
+                                                    </div>
+    
+                                                </div>
+                                                <div class="product__before__wrapperoffer__price">
+                                                    <p class="product__before__off__price">45,000</p>
+                                                    <p class="product__price__percentage">29%</p>
+                                                </div>
+                                                <h3 class="product__after__offer__price">32,000</h3>
+                                                <p class="product__sellerName">سید رضا صالحی</p>
+                                                <div class="product__timer">
+                                                    <p class="hour">15</p>
+                                                    <span>:</span>
+                                                    <p class="min">56</p>
+                                                    <span>:</span>
+    
+                                                    <p class="secnd">35</p>
+                                                    <span>:</span>
+    
+                                                    <p class="milisecnd">22</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="product__wrapper">
+                                                <h3 class="suggestion">پیشنهاد شگفت انگیز</h3>
+                                                <img src="images/icons/roj.jpg" class="product__img"></img>
+                                                <p class="product__img__caption">ست براش آرایشی مدل پاستیلی کد 8900</p>
+                                                <div class="product__img__count__wrapper">
+                                                    <div class="count__right__wrapper">
+                                                        <img src="images/icons/icons8-online-store-24.png"
+                                                            class="count__icon"></img>
+    
+                                                        <p class="count__text">موجود در انبار</p>
+    
+                                                    </div>
+                                                    <div class="count__left__wrapper">
+                                                        <p class="product__rate">4</p>
+                                                        <img src="images/icons/icons8-star-16.png" alt=""
+                                                            class=" product__rate__icon">
+                                                    </div>
+    
+                                                </div>
+                                                <div class="product__before__wrapperoffer__price">
+                                                    <p class="product__before__off__price">45,000 </p>
+                                                    <p class="product__price__percentage">29%</p>
+                                                </div>
+                                                <h3 class="product__after__offer__price">32,000</h3>
+                                                <p class="product__sellerName">سید رضا صالحی</p>
+                                                <div class="product__timer">
+                                                    <p class="hour">15</p>
+                                                    <span>:</span>
+                                                    <p class="min">56</p>
+                                                    <span>:</span>
+                                                    <p class="secnd">35</p>
+                                                    <span>:</span>
+                                                    <p class="milisecnd">22</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="products__wrapper">
+                                        <div class="col-3">
+                                            <div class="product__wrapper">
+                                                <h3 class="suggestion">پیشنهاد شگفت انگیز</h3>
+                                                <img src="images/icons/roj.jpg" class="product__img"></img>
+                                                <p class="product__img__caption">ست براش آرایشی مدل پاستیلی کد 8900</p>
+                                                <div class="product__img__count__wrapper">
+                                                    <div class="count__right__wrapper">
+                                                        <img src="images/icons/icons8-online-store-24.png"
+                                                            class="count__icon"></img>
+    
+                                                        <p class="count__text">موجود در انبار</p>
+    
+                                                    </div>
+                                                    <div class="count__left__wrapper">
+                                                        <p class="product__rate">4</p>
+                                                        <img src="images/icons/icons8-star-16.png" alt=""
+                                                            class="product__rate__icon">
+                                                    </div>
+    
+                                                </div>
+                                                <div class="product__before__wrapperoffer__price">
+                                                    <p class="product__before__off__price">45,000</p>
+                                                    <p class="product__price__percentage">29%</p>
+                                                </div>
+                                                <h3 class="product__after__offer__price">32,000</h3>
+                                                <p class="product__sellerName">سید رضا صالحی</p>
+                                                <div class="product__timer">
+                                                    <p class="hour">15</p>
+                                                    <span>:</span>
+    
+                                                    <p class="min">56</p>
+                                                    <span>:</span>
+    
+                                                    <p class="secnd">35</p>
+                                                    <span>:</span>
+    
+                                                    <p class="milisecnd">22</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="product__wrapper">
+                                                <h3 class="suggestion">پیشنهاد شگفت انگیز</h3>
+                                                <img src="images/icons/roj.jpg" class="product__img"></img>
+                                                <p class="product__img__caption">ست براش آرایشی مدل پاستیلی کد 8900</p>
+                                                <div class="product__img__count__wrapper">
+                                                    <div class="count__right__wrapper">
+                                                        <img src="images/icons/icons8-online-store-24.png"
+                                                            class="count__icon"></img>
+    
+                                                        <p class="count__text">موجود در انبار</p>
+    
+                                                    </div>
+                                                    <div class="count__left__wrapper">
+                                                        <p class="product__rate">4</p>
+                                                        <img src="images/icons/icons8-star-16.png" alt=""
+                                                            class=" product__rate__icon">
+                                                    </div>
+    
+                                                </div>
+                                                <div class="product__before__wrapperoffer__price">
+                                                    <p class="product__before__off__price">45,000</p>
+                                                    <p class="product__price__percentage">29%</p>
+                                                </div>
+                                                <h3 class="product__after__offer__price">32,000</h3>
+                                                <p class="product__sellerName">سید رضا صالحی</p>
+                                                <div class="product__timer">
+                                                    <p class="hour">15</p>
+                                                    <span>:</span>
+    
+                                                    <p class="min">56</p>
+                                                    <span>:</span>
+    
+                                                    <p class="secnd">35</p>
+                                                    <span>:</span>
+    
+                                                    <p class="milisecnd">22</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="product__wrapper">
+                                                <h3 class="suggestion">پیشنهاد شگفت انگیز</h3>
+                                                <img src="images/icons/roj.jpg" class="product__img"></img>
+                                                <p class="product__img__caption">ست براش آرایشی مدل پاستیلی کد 8900</p>
+                                                <div class="product__img__count__wrapper">
+                                                    <div class="count__right__wrapper">
+                                                        <img src="images/icons/icons8-online-store-24.png"
+                                                            class="count__icon"></img>
+    
+                                                        <p class="count__text">موجود در انبار</p>
+    
+                                                    </div>
+                                                    <div class="count__left__wrapper">
+                                                        <p class="product__rate">4</p>
+                                                        <img src="images/icons/icons8-star-16.png" alt=""
+                                                            class="  product__rate__icon">
+                                                    </div>
+    
+                                                </div>
+                                                <div class="product__before__wrapperoffer__price">
+                                                    <p class="product__before__off__price">45,000</p>
+                                                    <p class="product__price__percentage">29%</p>
+                                                </div>
+                                                <h3 class="product__after__offer__price">32,000</h3>
+                                                <p class="product__sellerName">سید رضا صالحی</p>
+                                                <div class="product__timer">
+                                                    <p class="hour">15</p>
+                                                    <span>:</span>
+                                                    <p class="min">56</p>
+                                                    <span>:</span>
+    
+                                                    <p class="secnd">35</p>
+                                                    <span>:</span>
+    
+                                                    <p class="milisecnd">22</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="product__wrapper">
+                                                <h3 class="suggestion">پیشنهاد شگفت انگیز</h3>
+                                                <img src="images/icons/roj.jpg" class="product__img"></img>
+                                                <p class="product__img__caption">ست براش آرایشی مدل پاستیلی کد 8900</p>
+                                                <div class="product__img__count__wrapper">
+                                                    <div class="count__right__wrapper">
+                                                        <img src="images/icons/icons8-online-store-24.png"
+                                                            class="count__icon"></img>
+    
+                                                        <p class="count__text">موجود در انبار</p>
+    
+                                                    </div>
+                                                    <div class="count__left__wrapper">
+                                                        <p class="product__rate">4</p>
+                                                        <img src="images/icons/icons8-star-16.png" alt=""
+                                                            class=" product__rate__icon">
+                                                    </div>
+    
+                                                </div>
+                                                <div class="product__before__wrapperoffer__price">
+                                                    <p class="product__before__off__price">45,000 </p>
+                                                    <p class="product__price__percentage">29%</p>
+                                                </div>
+                                                <h3 class="product__after__offer__price">32,000</h3>
+                                                <p class="product__sellerName">سید رضا صالحی</p>
+                                                <div class="product__timer">
+                                                    <p class="hour">15</p>
+                                                    <span>:</span>
+                                                    <p class="min">56</p>
+                                                    <span>:</span>
+                                                    <p class="secnd">35</p>
+                                                    <span>:</span>
+                                                    <p class="milisecnd">22</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="products__wrapper">
+                                        <div class="col-3">
+                                            <div class="product__wrapper">
+                                                <h3 class="suggestion">پیشنهاد شگفت انگیز</h3>
+                                                <img src="images/icons/roj.jpg" class="product__img"></img>
+                                                <p class="product__img__caption">ست براش آرایشی مدل پاستیلی کد 8900</p>
+                                                <div class="product__img__count__wrapper">
+                                                    <div class="count__right__wrapper">
+                                                        <img src="images/icons/icons8-online-store-24.png"
+                                                            class="count__icon"></img>
+    
+                                                        <p class="count__text">موجود در انبار</p>
+    
+                                                    </div>
+                                                    <div class="count__left__wrapper">
+                                                        <p class="product__rate">4</p>
+                                                        <img src="images/icons/icons8-star-16.png" alt=""
+                                                            class="product__rate__icon">
+                                                    </div>
+    
+                                                </div>
+                                                <div class="product__before__wrapperoffer__price">
+                                                    <p class="product__before__off__price">45,000</p>
+                                                    <p class="product__price__percentage">29%</p>
+                                                </div>
+                                                <h3 class="product__after__offer__price">32,000</h3>
+                                                <p class="product__sellerName">سید رضا صالحی</p>
+                                                <div class="product__timer">
+                                                    <p class="hour">15</p>
+                                                    <span>:</span>
+    
+                                                    <p class="min">56</p>
+                                                    <span>:</span>
+    
+                                                    <p class="secnd">35</p>
+                                                    <span>:</span>
+    
+                                                    <p class="milisecnd">22</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="product__wrapper">
+                                                <h3 class="suggestion">پیشنهاد شگفت انگیز</h3>
+                                                <img src="images/icons/roj.jpg" class="product__img"></img>
+                                                <p class="product__img__caption">ست براش آرایشی مدل پاستیلی کد 8900</p>
+                                                <div class="product__img__count__wrapper">
+                                                    <div class="count__right__wrapper">
+                                                        <img src="images/icons/icons8-online-store-24.png"
+                                                            class="count__icon"></img>
+    
+                                                        <p class="count__text">موجود در انبار</p>
+    
+                                                    </div>
+                                                    <div class="count__left__wrapper">
+                                                        <p class="product__rate">4</p>
+                                                        <img src="images/icons/icons8-star-16.png" alt=""
+                                                            class=" product__rate__icon">
+                                                    </div>
+    
+                                                </div>
+                                                <div class="product__before__wrapperoffer__price">
+                                                    <p class="product__before__off__price">45,000</p>
+                                                    <p class="product__price__percentage">29%</p>
+                                                </div>
+                                                <h3 class="product__after__offer__price">32,000</h3>
+                                                <p class="product__sellerName">سید رضا صالحی</p>
+                                                <div class="product__timer">
+                                                    <p class="hour">15</p>
+                                                    <span>:</span>
+    
+                                                    <p class="min">56</p>
+                                                    <span>:</span>
+    
+                                                    <p class="secnd">35</p>
+                                                    <span>:</span>
+    
+                                                    <p class="milisecnd">22</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="product__wrapper">
+                                                <h3 class="suggestion">پیشنهاد شگفت انگیز</h3>
+                                                <img src="images/icons/roj.jpg" class="product__img"></img>
+                                                <p class="product__img__caption">ست براش آرایشی مدل پاستیلی کد 8900</p>
+                                                <div class="product__img__count__wrapper">
+                                                    <div class="count__right__wrapper">
+                                                        <img src="images/icons/icons8-online-store-24.png"
+                                                            class="count__icon"></img>
+    
+                                                        <p class="count__text">موجود در انبار</p>
+    
+                                                    </div>
+                                                    <div class="count__left__wrapper">
+                                                        <p class="product__rate">4</p>
+                                                        <img src="images/icons/icons8-star-16.png" alt=""
+                                                            class="  product__rate__icon">
+                                                    </div>
+    
+                                                </div>
+                                                <div class="product__before__wrapperoffer__price">
+                                                    <p class="product__before__off__price">45,000</p>
+                                                    <p class="product__price__percentage">29%</p>
+                                                </div>
+                                                <h3 class="product__after__offer__price">32,000</h3>
+                                                <p class="product__sellerName">سید رضا صالحی</p>
+                                                <div class="product__timer">
+                                                    <p class="hour">15</p>
+                                                    <span>:</span>
+                                                    <p class="min">56</p>
+                                                    <span>:</span>
+    
+                                                    <p class="secnd">35</p>
+                                                    <span>:</span>
+    
+                                                    <p class="milisecnd">22</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-3">
+                                            <div class="product__wrapper">
+                                                <h3 class="suggestion">پیشنهاد شگفت انگیز</h3>
+                                                <img src="images/icons/roj.jpg" class="product__img"></img>
+                                                <p class="product__img__caption">ست براش آرایشی مدل پاستیلی کد 8900</p>
+                                                <div class="product__img__count__wrapper">
+                                                    <div class="count__right__wrapper">
+                                                        <img src="images/icons/icons8-online-store-24.png"
+                                                            class="count__icon"></img>
+    
+                                                        <p class="count__text">موجود در انبار</p>
+    
+                                                    </div>
+                                                    <div class="count__left__wrapper">
+                                                        <p class="product__rate">4</p>
+                                                        <img src="images/icons/icons8-star-16.png" alt=""
+                                                            class=" product__rate__icon">
+                                                    </div>
+    
+                                                </div>
+                                                <div class="product__before__wrapperoffer__price">
+                                                    <p class="product__before__off__price">45,000 </p>
+                                                    <p class="product__price__percentage">29%</p>
+                                                </div>
+                                                <h3 class="product__after__offer__price">32,000</h3>
+                                                <p class="product__sellerName">سید رضا صالحی</p>
+                                                <div class="product__timer">
+                                                    <p class="hour">15</p>
+                                                    <span>:</span>
+                                                    <p class="min">56</p>
+                                                    <span>:</span>
+                                                    <p class="secnd">35</p>
+                                                    <span>:</span>
+                                                    <p class="milisecnd">22</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                </div>
+    
+    
+    
+    
+                            </div>
+    
+                        </div>
+                    </div>
+    
+                </section>
+                <div class="row">
+                    <div class="col-2">
+
+                        
+                    </div>
+                    <div class="col-10">
+                        <div class="col10__wrapper">
+                            <div class="store__presentaion__wrapper">
+                                <div class="store__presentaion">
+                                    <h2 class="store__presentaion__title">فروشگاه</h2>
+                                    <p class="store__presentaion__details  ">
+                                        ایران‌کالا به عنوان یکی از قدیمی‌ترین فروشگاه های اینترنتی با بیش از یک دهه تجربه،
+                                        با
+                                        پایبندی به سه
+                                        اصل کلیدی، پرداخت در محل، ۷ روز ضمانت بازگشت کالا و تضمین اصل‌بودن کالا، موفق شده تا
+                                        همگام با
+                                        فروشگاه‌های معتبر جهان، به بزرگ‌ترین فروشگاه اینترنتی ایران تبدیل شود. به محض ورود
+                                        به
+                                        ایران‌کالا با
+                                        یک سایت پر از کالا رو به رو می‌شوید! هر آنچه که نیاز دارید و به ذهن شما خطور می‌کند
+                                        در
+                                        اینجا پیدا
+                                        خواهید کرد. ایران‌کالا به عنوان یکی از قدیمی‌ترین فروشگاه های اینترنتی با بیش از یک
+                                        دهه
+                                        تجربه، با
+                                        پایبندی به سه اصل کلیدی، پرداخت در محل، ۷ روز ضمانت بازگشت کالا و تضمین اصل‌بودن
+                                        کالا،
+                                        موفق شده تا
+                                        همگام با فروشگاه‌های معتبر جهان، به بزرگ‌ترین فروشگاه اینترنتی ایران تبدیل شود. به
+                                        محض
+                                        ورود به
+                                        ایران‌کالا با یک سایت پر از کالا رو به رو می‌شوید! هر آنچه که نیاز دارید و به ذهن
+                                        شما
+                                        خطور می‌کند در
+                                        اینجا پیدا خواهید کرد.
+    
+                                        ایران‌کالا به عنوان یکی از قدیمی‌ترین فروشگاه های اینترنتی با بیش از یک دهه تجربه،
+                                        با
+                                        پایبندی به سه
+                                        اصل کلیدی، پرداخت در محل، ۷ روز ضمانت بازگشت کالا و تضمین اصل‌بودن کالا، موفق شده تا
+                                        همگام با
+                                        فروشگاه‌های معتبر جهان، به بزرگ‌ترین فروشگاه اینترنتی ایران تبدیل شود. به محض ورود
+                                        به
+                                        ایران‌کالا با
+                                        یک سایت پر از کالا رو به رو می‌شوید! هر آنچه که نیاز دارید و به ذهن شما خطور می‌کند
+                                        در
+                                        اینجا پیدا
+                                        خواهید کرد. ایران‌کالا به عنوان یکی از قدیمی‌ترین فروشگاه های اینترنتی با بیش از یک
+                                        دهه
+                                        تجربه، با
+                                        پایبندی به سه اصل کلیدی، پرداخت در محل، ۷ روز ضمانت بازگشت کالا و تضمین اصل‌بودن
+                                        کالا،
+                                        موفق شده تا
+                                        همگام با فروشگاه‌های معتبر جهان، به بزرگ‌ترین فروشگاه اینترنتی ایران تبدیل شود. به
+                                        محض
+                                        ورود به
+                                        ایران‌کالا با یک سایت پر از کالا رو به رو می‌شوید! هر آنچه که نیاز دارید و به ذهن
+                                        شما
+                                        خطور می‌کند در
+                                        اینجا پیدا خواهید کرد
+                                    </p>
+                                </div>
+                                <p class="show__moreOrless">
+                                    <a href="" class="show__moreOrless__link">نمایش بیشتر</a>
+                                </p>
+                            </div>
+                        </div>
+    
+    
+                    </div>
+                </div>
+            </div>
+       
+
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__up">
+            <h2 class="footer__up__title">برای اطلاع از آخرین تخفیف‌ها و جدیدترین محصولات در خبرنامه ثبت‌نام کنید.
+
+            </h2>
+            <div class="footer__email__wrapper">
+                <input class="footer__up__email__input" placeholder="ایمیل خود را وارد کنید.."></input>
+                <button class="email__btn"><a href="#" class="email__link"> ثبت نام </a></button>
+            </div>
+
+        </div>
+        <div class="footer__down">
+            <div class="footer__down__wrapper">
+                <div class="customer___wrapper">
+                    <h3 class="customer___title">خدمات مشتریان</h3>
+                    <ul class="customer___list">
+                        <li class="customer___list__item"><a class="customer___list__link" href="#">مقایسه محصولات</a>
+                        </li>
+                        <li class="customer___list__item"><a class="customer___list__link" href="#">حساب کاربری</a></li>
+                        <li class="customer___list__item"><a class="customer___list__link" href="#">پرداخت</a></li>
+                        <li class="customer___list__item"><a class="customer___list__link" href="#">سبد خرید</a></li>
+                        <li class="customer___list__item"><a class="customer___list__link" href="#">فروشگاه </a></li>
+                    </ul>
+                </div>
+                <div class="irankala___wrapper">
+                    <h3 class="irankala___title">خدمات ایران کالا</h3>
+                    <ul class="irankala___list">
+                        <li class="irankala___list__item"><a class="irankala___list__link" href="#">مقایسه محصولات</a>
+                        </li>
+                        <li class="irankala___list__item"><a class="irankala___list__link" href="#">حساب کاربری</a></li>
+                        <li class="irankala___list__item"><a class="irankala___list__link" href="#">پرداخت</a></li>
+                        <li class="irankala___list__item"><a class="irankala___list__link" href="#">سبد خرید</a></li>
+                        <li class="irankala___list__item"><a class="irankala___list__link" href="#">فروشگاه </a></li>
+                    </ul>
+                </div>
+                <div class="guid-shop___wrapper">
+                    <h3 class="guid-shop___title">راهنمایی خرید </h3>
+                    <ul class="guid-shop___list">
+                        <li class="guid-shop___list__item"><a class="guid-shop___list__link" href="#">مقایسه محصولات</a>
+                        </li>
+                        <li class="guid-shop___list__item"><a class="guid-shop___list__link" href="#">حساب کاربری</a>
+                        </li>
+                        <li class="guid-shop___list__item"><a class="guid-shop___list__link" href="#">پرداخت</a></li>
+                        <li class="guid-shop___list__item"><a class="guid-shop___list__link" href="#">سبد خرید</a></li>
+                        <li class="guid-shop___list__item"><a class="guid-shop___list__link" href="#">فروشگاه </a></li>
+                    </ul>
+                </div>
+                <div class="credit__symbols___wrapper">
+                    <h3 class="credit__symbols__title"> نماد های اعتبار </h3>
+                    <div class="imgs__wrapper">
+                        <img src="images/icons/kasbokar.png" alt="">
+                        <img src="images/icons/symbol-02.png" alt="">
+                        <img src="images/icons/symbol-01.png" alt="">
+                    </div>
+                
+
+              
+                </div>
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>
